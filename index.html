@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aplikasi Pencarian Data</title>
+    <style>
+        :root {
+            --primary: #4F46E5;
+            --bg-color: #F3F4F6;
+            --card-bg: #FFFFFF;
+            --text-main: #1F2937;
+            --text-muted: #6B7280;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-main);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+        }
+        .container {
+            width: 100%;
+            max-width: 500px;
+        }
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+            color: var(--text-main);
+        }
+        /* Sticky Search Bar */
+        .search-container {
+            position: sticky;
+            top: 0;
+            background-color: var(--bg-color);
+            padding: 10px 0 20px 0;
+            z-index: 10;
+        }
+        input[type="text"] {
+            width: 100%;
+            padding: 14px 16px;
+            font-size: 16px;
+            border: 2px solid #D1D5DB;
+            border-radius: 8px;
+            box-sizing: border-box;
+            outline: none;
+            transition: border-color 0.2s ease;
+        }
+        input[type="text"]:focus {
+            border-color: var(--primary);
+        }
+        .result-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        .result-item {
+            background: var(--card-bg);
+            padding: 16px;
+            margin-bottom: 12px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-left: 4px solid var(--primary);
+        }
+        .info {
+            display: flex;
+            flex-direction: column;
+        }
+        .group-name {
+            font-size: 12px;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 4px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .person-name {
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .person-id {
+            font-size: 18px;
+            font-weight: bold;
+            color: var(--primary);
+        }
+        .no-data {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-muted);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h2>Direktori Data</h2>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Cari nama, grup, atau ID...">
+        </div>
+
+        <ul class="result-list" id="resultList">
+            </ul>
+    </div>
+
+    <script>
+        let peopleData = [];
+
+        // Mengambil data dari data.json
+        async function loadData() {
+            try {
+                const response = await fetch('data.json');
+                peopleData = await response.json();
+                renderData(peopleData);
+            } catch (error) {
+                console.error("Gagal memuat data:", error);
+                document.getElementById('resultList').innerHTML = '<li class="no-data">Gagal memuat data. Pastikan dijalankan di server.</li>';
+            }
+        }
+
+        // Fungsi untuk merender list HTML
+        function renderData(data) {
+            const listContainer = document.getElementById('resultList');
+            listContainer.innerHTML = ''; // Kosongkan list sebelumnya
+
+            if (data.length === 0) {
+                listContainer.innerHTML = '<li class="no-data">Data tidak ditemukan.</li>';
+                return;
+            }
+
+            data.forEach(item => {
+                const li = document.createElement('li');
+                li.className = 'result-item';
+                
+                li.innerHTML = `
+                    <div class="info">
+                        <span class="group-name">[${item.group}]</span>
+                        <span class="person-name">${item.name}</span>
+                    </div>
+                    <div class="person-id">${item.id}</div>
+                `;
+                
+                listContainer.appendChild(li);
+            });
+        }
+
+        // Event listener untuk input pencarian (real-time filtering)
+        document.getElementById('searchInput').addEventListener('input', function(e) {
+            const query = e.target.value.toLowerCase();
+            
+            const filteredData = peopleData.filter(item => {
+                // Menggabungkan semua properti untuk dicocokkan dengan input
+                const combinedString = `[${item.group}] ${item.name} ${item.id}`.toLowerCase();
+                return combinedString.includes(query);
+            });
+            
+            renderData(filteredData);
+        });
+
+        // Inisialisasi
+        loadData();
+    </script>
+
+</body>
+</html>

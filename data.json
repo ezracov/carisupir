@@ -1,0 +1,19 @@
+[
+  { "group": "FREELANCE", "name": "MAHMUD", "id": "001" },
+  { "group": "GARASI", "name": "KONDE", "id": "002" },
+  { "group": "JRC", "name": "ALI BOYA", "id": "003" },
+  { "group": "FREELANCE", "name": "INDRA RAHARJA", "id": "004" },
+  { "group": "FAMILY HABIBI", "name": "KOBE", "id": "005" },
+  { "group": "NEWSTAR", "name": "SUMARNA ADANG", "id": "006" },
+  { "group": "TR", "name": "ANAS", "id": "007" },
+  { "group": "JABAL AHDAR", "name": "HENDRA", "id": "008" },
+  { "group": "NEWSTAR", "name": "RUDI", "id": "009" },
+  { "group": "BBS", "name": "AGUS IBRAHIM", "id": "010" },
+  { "group": "CRC 1", "name": "RIZAL", "id": "011" },
+  { "group": "P3CB", "name": "IWAN GARONG", "id": "012" },
+  { "group": "4G", "name": "HENDI", "id": "013" },
+  { "group": "CRC 1", "name": "RENDI", "id": "014" },
+  { "group": "IPPA", "name": "UUS", "id": "015" },
+  { "group": "FAMILY", "name": "WALID", "id": "016" },
+  { "group": "JRC", "name": "POLEM", "id": "017" }
+]
