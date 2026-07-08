@@ -1,6 +1,5 @@
 [
-  
-  { "group": "FREELANCE", "name": "MAHMUD", "id": "001" },
+{ "group": "FREELANCE", "name": "MAHMUD", "id": "001" },
 { "group": "GARASI", "name": "KONDE", "id": "002" },
 { "group": "JRC", "name": "ALI BOYA", "id": "003" },
 { "group": "FREELANCE", "name": "INDRA RAHARJA", "id": "004" },
@@ -583,7 +582,7 @@
 { "group": "FAMILY HABIBI", "name": "YAKUB", "id": "585" },
 { "group": "P2C", "name": "P ANWAR", "id": "586" },
 { "group": "GEROBAG", "name": "AZRIL", "id": "587" },
-{ "group": "ANAZMA", "name": "RIDWAN IDIS", "id": "588" },
+{ "group": "ANAZMA", "name": "RIDWAN", "id": "588" },
 { "group": "BBS", "name": "AZIS", "id": "589" },
 { "group": "BBS", "name": "YAYA COPAY", "id": "590" },
 { "group": "SEKTOR C", "name": "KENTUNG", "id": "591" },
@@ -660,7 +659,7 @@
 { "group": "FAMILY HABIBI", "name": "MULLI", "id": "660" },
 { "group": "NEWSTAR", "name": "ASEP KHUSAERI", "id": "661" },
 { "group": "IPPA", "name": "BENI", "id": "662" },
-{ "group": "ALFARUQ", "name": "RUSLAN", "id": "663" },
+{ "group": "FATNER FAMILY", "name": "RUSLAN", "id": "663" },
 { "group": "BLOK M", "name": "DADANG", "id": "664" },
 { "group": "SEKTOR C", "name": "INDRA", "id": "665" },
 { "group": "BGC", "name": "YUSUF GOJALI", "id": "666" },
@@ -851,7 +850,15 @@
 { "group": "ALMAWADA", "name": "DEN DEN", "id": "847" },
 { "group": "ARAHIM", "name": "HASAN", "id": "848" },
 { "group": "ANAZMA", "name": "SAPRI", "id": "849" },
-{ "group": "CRC 2", "name": "YAHYA", "id": "639" }
-
-
+{ "group": "CRC 2", "name": "YAHYA", "id": "639" },
+{ "group": "CRC 4", "name": "INDRA ABU NAWAL", "id": "853" },
+{ "group": "SHK", "name": "LINTONG", "id": "856" },
+{ "group": "CRC 2", "name": "OKIM", "id": "858" },
+{ "group": "WDS", "name": "DIDI", "id": "855" },
+{ "group": "BDHAZ", "name": "RUSLI", "id": "854" },
+{ "group": "PIONEER", "name": "ARI", "id": "857" },
+{ "group": "BBS", "name": "ENDANG", "id": "860" },
+{ "group": "SAHL TOUR", "name": "EDWIN", "id": "859" },
+{ "group": "FREELANCE", "name": "KASIM", "id": "861" },
+{ "group": "JNT PRO", "name": "DANIEL", "id": "862" }
 ]
