@@ -66,6 +66,13 @@
             justify-content: space-between;
             align-items: center;
             border-left: 4px solid var(--primary);
+            cursor: pointer; /* Perubahan 1: Mengubah cursor menjadi pointer saat hover */
+            transition: transform 0.1s ease, box-shadow 0.1s ease;
+        }
+        /* Tambahan efek hover agar lebih interaktif */
+        .result-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         .info {
             display: flex;
@@ -105,7 +112,8 @@
         </div>
 
         <ul class="result-list" id="resultList">
-            </ul>
+            <!-- Data akan dimuat di sini -->
+        </ul>
     </div>
 
     <script>
@@ -145,6 +153,12 @@
                     <div class="person-id">${item.id}</div>
                 `;
                 
+                // Perubahan 2 & 3: Menambahkan event click untuk membuka tautan berdasarkan item.id (token)
+                li.addEventListener('click', function() {
+                    const targetUrl = `https://member-zahra.netlify.app/?token=${item.id}`;
+                    window.open(targetUrl, '_blank'); // '_blank' digunakan untuk membuka di tab baru
+                });
+                
                 listContainer.appendChild(li);
             });
         }
@@ -154,7 +168,6 @@
             const query = e.target.value.toLowerCase();
             
             const filteredData = peopleData.filter(item => {
-                // Menggabungkan semua properti untuk dicocokkan dengan input
                 const combinedString = `[${item.group}] ${item.name} ${item.id}`.toLowerCase();
                 return combinedString.includes(query);
             });
