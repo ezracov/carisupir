@@ -1086,6 +1086,14 @@
 {"group" : "ALMAWADA", "name": "INDRA", "id": "1075"},
 {"group" : "PPGC", "name": "HERMAN", "id": "1088"},
 {"group" : "BLOK M", "name": "YANA", "id": "1087"},
-{"group" : "IGP", "name": "ARIS", "id": "1079"}
+{"group" : "IGP", "name": "ARIS", "id": "1079"},
+{"group" : "DESTROY", "name": "AGUS UKONG", "id": "1089"},
+{"group" : "KOMPAK", "name": "MUHIDIN", "id": "1090"},
+{"group" : "MURSID AMANAH", "name": "RIAN JABAL", "id": "1091"},
+{"group" : "SK", "name": "EGI", "id": "1092"},
+{"group" : "GSPI", "name": "JENAL", "id": "1093"},
+{"group" : "WHIFER", "name": "UYA", "id": "1094"},
+{"group" : "WDS", "name": "RUSLAN", "id": "1095"},
+{"group" : "RAMADAN", "name": "RIZKI", "id": "1096"}
 ]
 
