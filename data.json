@@ -895,7 +895,7 @@
 {"group" : "FARHANA", "name": "HADLI", "id": "897"},
 {"group" : "PPGC", "name": "SOBUR", "id": "898"},
 {"group" : "FREELANCE", "name": "DILAH", "id": "899"},
-{"group" : "ALMAWADA", "name": "MIFTAH", "id": "900"},
+{"group" : "STT", "name": "MIFTAH", "id": "900"},
 {"group" : "ALAKEFEK", "name": "HABIB", "id": "901"},
 {"group" : "P2C", "name": "USMAN", "id": "902"},
 {"group" : "EXIST", "name": "SUGIH", "id": "903"},
@@ -1190,6 +1190,12 @@
 {"group" : "BATAVIA", "name": "AGUNG", "id": "1191"},
 {"group" : "FREELANCE", "name": "NANA", "id": "1194"},
 {"group" : "KBR", "name": "ABU AZAM", "id": "1195"},
-{"group" : "ASR", "name": "P YANA", "id": "1196"}
+{"group" : "ASR", "name": "P YANA", "id": "1196"},
+{"group" : "MURSID AMANH", "name": "NAJIB", "id": "1199"},
+{"group" : "FAMILY PONCORAN", "name": "BOANG", "id": "1197"},
+{"group" : "ALFATHAN", "name": "SIDIK PERMANA", "id": "1198"},
+{"group" : "FREELANCE", "name": "PA DEDI", "id": "1200"},
+{"group" : "JDC", "name": "ANGGA", "id": "1201"},
+{"group" : "NCI", "name": "ANIP", "id": "1184"}
 ]
 
