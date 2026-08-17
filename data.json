@@ -252,7 +252,7 @@
 {"group" : "BGC", "name": "BAKARA", "id": "251"},
 {"group" : "X ONE", "name": "KINOY", "id": "252"},
 {"group" : "IPPA", "name": "UJ", "id": "253"},
-{"group" : "PIONEER", "name": "COMET", "id": "254"},
+{"group" : "SAVANA", "name": "COMET", "id": "254"},
 {"group" : "CRC 2", "name": "IWAN", "id": "255"},
 {"group" : "CRC 1", "name": "KUMIN", "id": "256"},
 {"group" : "BGC", "name": "DORIP", "id": "257"},
@@ -667,7 +667,7 @@
 {"group" : "ALBANTANI", "name": "IPANG", "id": "668"},
 {"group" : "FREELANCE", "name": "HERI PANGSI", "id": "669"},
 {"group" : "SK", "name": "IRWANSYAH", "id": "670"},
-{"group" : "BBS", "name": "TEGUH", "id": "671"},
+{"group" : "FATNER FAMILY", "name": "TEGUH", "id": "671"},
 {"group" : "CRC 1", "name": "HAMZAH", "id": "672"},
 {"group" : "PPGC", "name": "SOLEHUDIN", "id": "673"},
 {"group" : "LF", "name": "TETEN", "id": "674"},
@@ -789,7 +789,7 @@
 {"group" : "ALFARUQ", "name": "JAENUDIN", "id": "790"},
 {"group" : "ALAKEFEK", "name": "KHOLID", "id": "791"},
 {"group" : "PPGC", "name": "H DAI", "id": "792"},
-{"group" : "NNC", "name": "RAMA", "id": "793"},
+{"group" : "FREELANCE", "name": "RAMA", "id": "793"},
 {"group" : "FAMILY HABIBI", "name": "RUSDI", "id": "794"},
 {"group" : "FAMILY PONCORAN", "name": "BUBUN", "id": "795"},
 {"group" : "CRC 2", "name": "AGOY", "id": "796"},
@@ -1196,6 +1196,7 @@
 {"group" : "ALFATHAN", "name": "SIDIK PERMANA", "id": "1198"},
 {"group" : "FREELANCE", "name": "PA DEDI", "id": "1200"},
 {"group" : "JDC", "name": "ANGGA", "id": "1201"},
-{"group" : "NCI", "name": "ANIP", "id": "1184"}
+{"group" : "NCI", "name": "ANIP", "id": "1184"},
+{"group" : "SK", "name": "KEBEL", "id": "1202"}
 ]
 
