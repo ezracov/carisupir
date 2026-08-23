@@ -211,7 +211,7 @@
 {"group" : "FREELANCE", "name": "FARIDA", "id": "210"},
 {"group" : "IPPA", "name": "ALDO", "id": "211"},
 {"group" : "IPPA", "name": "RINA", "id": "212"},
-{"group" : "PARTNER", "name": "AGUS", "id": "213"},
+{"group" : "CRC 2", "name": "AGUS", "id": "213"},
 {"group" : "BEDOG LOCOT", "name": "OMEN", "id": "214"},
 {"group" : "FATNER FAMILY", "name": "NURJEN", "id": "215"},
 {"group" : "PARTNER", "name": "IPANK", "id": "216"},
@@ -872,7 +872,7 @@
 {"group" : "SEXY", "name": "IWAN CIWOK", "id": "873"},
 {"group" : "MANDIRI SAFAR", "name": "MAS SULTON", "id": "874"},
 {"group" : "GN JATI", "name": "MUSTADI", "id": "875"},
-{"group" : "ANAZMA", "name": "HENDRA GUNAWAN", "id": "876"},
+{"group" : "FREELANCE", "name": "HENDRA GUNAWAN EX ANAZMA", "id": "876"},
 {"group" : "FREELANCE", "name": "UJEN", "id": "877"},
 {"group" : "GHIBET", "name": "AYI", "id": "878"},
 {"group" : "FAMILY HABIBI", "name": "H DIDIN ", "id": "879"},
@@ -908,7 +908,7 @@
 {"group" : "JDC", "name": "ALFI", "id": "910"},
 {"group" : "HALLA INDONESIA", "name": "ERSYAD", "id": "911"},
 {"group" : "FAMILY GOLF", "name": "NANDAR", "id": "912"},
-{"group" : "BL", "name": "GOJALI", "id": "913"},
+{"group" : "BEDOG LOCOT", "name": "GOJALI", "id": "913"},
 {"group" : "FAMILY PONCORAN", "name": "TORIK", "id": "914"},
 {"group" : "FREELANCE", "name": "DADAN SAFIRA", "id": "915"},
 {"group" : "CRC 1", "name": "FARID", "id": "916"},
@@ -1212,6 +1212,15 @@
 {"group" : "KB", "name": "GALIH", "id": "1206"},
 {"group" : "X ONE", "name": "JENAL", "id": "1205"},
 {"group" : "HPI", "name": "ALI", "id": "1211"},
-{"group" : "KGWM", "name": "H AHMAD", "id": "1212"}
+{"group" : "KGWM", "name": "H AHMAD", "id": "1212"},
+{"group" : "BMG", "name": "DAHLAN", "id": "1217"},
+{"group" : "JKT", "name": "AFANDI", "id": "1218"},
+{"group" : "TR", "name": "HERDI", "id": "1225"},
+{"group" : "4G", "name": "HAIKAL", "id": "1224"},
+{"group" : "EXIST", "name": "RIAN", "id": "1221"},
+{"group" : "BEDOG LOCOT", "name": "TATANG", "id": "1223"},
+{"group" : "IGP", "name": "FARHAN", "id": "1220"},
+{"group" : "AMANAH HOLIDAY", "name": "HARYANTO", "id": "1219"},
+{"group" : "SDS", "name": "MARWAN", "id": "1222"}
 ]
 
