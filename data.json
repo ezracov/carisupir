@@ -117,7 +117,7 @@
 {"group" : "EXIST", "name": "JAMAL", "id": "116"},
 {"group" : "MS", "name": "JAMIL ex PPGC", "id": "117"},
 {"group" : "BDHAZ", "name": "ASUN", "id": "118"},
-{"group" : "BET ASPUR", "name": "MUMO", "id": "119"},
+{"group" : "BET ASPUR", "name": "MUMU", "id": "119"},
 {"group" : "ANAZMA", "name": "AYI SAEPUDIN", "id": "120"},
 {"group" : "SAHL TOUR", "name": "SAHRUL R", "id": "121"},
 {"group" : "SAVANA", "name": "DEMI", "id": "122"},
@@ -143,7 +143,7 @@
 {"group" : "SEKTOR C", "name": "IYANG AMBON", "id": "142"},
 {"group" : "KB", "name": "FAHRUDIN", "id": "143"},
 {"group" : "FREELANCE", "name": "TETEN", "id": "144"},
-{"group" : "ASR", "name": "BANI", "id": "145"},
+{"group" : "NGOPAS", "name": "BENI", "id": "145"},
 {"group" : "ADC", "name": "JAJAT", "id": "146"},
 {"group" : "FAMILY", "name": "HAMZAH", "id": "147"},
 {"group" : "FREELANCE", "name": "RIDWAN", "id": "148"},
@@ -1041,7 +1041,7 @@
 {"group" : "KB", "name": "DADI", "id": "1043"},
 {"group" : "FAMILY PONCORAN", "name": "IRFAN", "id": "1044"},
 {"group" : "JKT", "name": "UCOK", "id": "1045"},
-{"group" : "FREELANCE", "name": "YADI KACAMATA", "id": "1046"},
+{"group" : "SAVANA", "name": "YADI KACAMATA", "id": "1046"},
 {"group" : "JABAL AHDAR", "name": "USMAN USEK", "id": "1047"},
 {"group" : "SK", "name": "ARIS", "id": "1048"},
 {"group" : "JABAL AHDAR", "name": "HERMANSYAH", "id": "1049"},
@@ -1221,6 +1221,10 @@
 {"group" : "BEDOG LOCOT", "name": "TATANG", "id": "1223"},
 {"group" : "IGP", "name": "FARHAN", "id": "1220"},
 {"group" : "AMANAH HOLIDAY", "name": "HARYANTO", "id": "1219"},
-{"group" : "SDS", "name": "MARWAN", "id": "1222"}
+{"group" : "SDS", "name": "MARWAN", "id": "1222"},
+{"group" : "JUNIOR", "name": "H OBENG", "id": "1226"},
+{"group" : "FREELANCE", "name": "NURDIN", "id": "1229"},
+{"group" : "HPI", "name": "H BUDI", "id": "1227"},
+{"group" : "SEKTOR C", "name": "RIAN", "id": "1228"}
 ]
 
