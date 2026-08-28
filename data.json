@@ -863,7 +863,7 @@
 {"group" : "KGWM", "name": "RAHMAN", "id": "864"},
 {"group" : "BBS", "name": "ADI SEVA", "id": "865"},
 {"group" : "BATAVIA", "name": "TAUFIK ISMAIL", "id": "866"},
-{"group" : "FREELANCE", "name": "DIDI MIRIP CAKIM", "id": "867"},
+{"group" : "X ONE", "name": "DIDI MIRIP CAKIM", "id": "867"},
 {"group" : "JKT", "name": "HASAN", "id": "868"},
 {"group" : "SGA", "name": "DODI", "id": "869"},
 {"group" : "FMID", "name": "MIFTAH", "id": "870"},
@@ -1225,6 +1225,15 @@
 {"group" : "JUNIOR", "name": "H OBENG", "id": "1226"},
 {"group" : "FREELANCE", "name": "NURDIN", "id": "1229"},
 {"group" : "HPI", "name": "H BUDI", "id": "1227"},
-{"group" : "SEKTOR C", "name": "RIAN", "id": "1228"}
+{"group" : "SEKTOR C", "name": "RIAN", "id": "1228"},
+{"group" : "ALMAWADA", "name": "MIFTAH", "id": "1233"},
+{"group" : "KGWM", "name": "SUHENDI", "id": "1231"},
+{"group" : "BGC", "name": "DEDE ISKANDAR", "id": "1232"},
+{"group" : "SEKTOR C", "name": "DILAH", "id": "1230"},
+{"group" : "SGA", "name": "ACIL", "id": "1234"},
+{"group" : "JDC", "name": "JENAL", "id": "1235"},
+{"group" : "FREELANCE", "name": "ABU ZAELANI", "id": "1236"},
+{"group" : "FREELANCE", "name": "TOPIK", "id": "1237"},
+{"group" : "JKT", "name": "MAIL", "id": "1238"}
 ]
 
