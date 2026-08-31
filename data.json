@@ -267,7 +267,7 @@
 {"group" : "IPPA", "name": "TEDI", "id": "266"},
 {"group" : "HALLA INDONESIA", "name": "ISAM", "id": "267"},
 {"group" : "FAMILY", "name": "SADONG", "id": "268"},
-{"group" : "ALAKEFEK", "name": "IWAN", "id": "269"},
+{"group" : "LABBAEK INDONESIA", "name": "IWAN", "id": "269"},
 {"group" : "SAVANA", "name": "ASEP", "id": "270"},
 {"group" : "SK", "name": "UCUP", "id": "271"},
 {"group" : "CRC 4", "name": "BUSRO", "id": "272"},
@@ -413,7 +413,7 @@
 {"group" : "CRC 2", "name": "DACIM", "id": "412"},
 {"group" : "CRC 1", "name": "ZAKI", "id": "413"},
 {"group" : "IPPA", "name": "HARYANTO", "id": "414"},
-{"group" : "BGC", "name": "MAULANA YUSUF", "id": "415"},
+{"group" : "BMG", "name": "MAULANA YUSUF", "id": "415"},
 {"group" : "AMANAH HOLIDAY", "name": "HERI", "id": "416"},
 {"group" : "FREELANCE", "name": "HAMZAH", "id": "417"},
 {"group" : "FREELANCE", "name": "EKO G", "id": "418"},
@@ -892,7 +892,7 @@
 {"group" : "FREELANCE", "name": "RIDWAN", "id": "893"},
 {"group" : "BDHAZ", "name": "UDEN", "id": "894"},
 {"group" : "AL FARUQ", "name": "WAHYU", "id": "896"},
-{"group" : "FARHANA", "name": "HADLI", "id": "897"},
+{"group" : "MS", "name": "HADLI", "id": "897"},
 {"group" : "PPGC", "name": "SOBUR", "id": "898"},
 {"group" : "FREELANCE", "name": "DILAH", "id": "899"},
 {"group" : "STT", "name": "MIFTAH", "id": "900"},
@@ -1234,6 +1234,12 @@
 {"group" : "JDC", "name": "JENAL", "id": "1235"},
 {"group" : "FREELANCE", "name": "ABU ZAELANI", "id": "1236"},
 {"group" : "FREELANCE", "name": "TOPIK", "id": "1237"},
-{"group" : "JKT", "name": "MAIL", "id": "1238"}
+{"group" : "JKT", "name": "MAIL", "id": "1238"},
+{"group" : "ALFARUQ", "name": "MAS NURHADI", "id": "1239"},
+{"group" : "CRC 1", "name": "RYAN", "id": "1240"},
+{"group" : "FREELANCE", "name": "MUHAMAD NUR", "id": "1241"},
+{"group" : "H2GU", "name": "IDRIS", "id": "1242"},
+{"group" : "FREELANCE", "name": "RITA", "id": "1244"},
+{"group" : "SK", "name": "DANTO", "id": "1243"}
 ]
 
