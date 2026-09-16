@@ -1276,6 +1276,12 @@
 {"group" : "WDS", "name": "ANDU MUH", "id": "1272"},
 {"group" : "FREELANCE", "name": "NAFIS", "id": "1274"},
 {"group" : "TR", "name": "JAJANG", "id": "1280"},
-{"group" : "CRC 1", "name": "DANU", "id": "1276"}
+{"group" : "CRC 1", "name": "DANU", "id": "1276"},
+{"group" : "FAMILY", "name": "RIZAL", "id": "1282"},
+{"group" : "FREELANCE", "name": "MARWAN H OBENG", "id": "1285"},
+{"group" : "H2GU", "name": "BEMBI", "id": "1283"},
+{"group" : "LF", "name": "DUPONG", "id": "1281"},
+{"group" : "LF", "name": "DOWER", "id": "1284"},
+{"group" : "KOMPAK", "name": "SUHENDI", "id": "1286"}
 ]
 
