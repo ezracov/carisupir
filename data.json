@@ -1282,6 +1282,12 @@
 {"group" : "H2GU", "name": "BEMBI", "id": "1283"},
 {"group" : "LF", "name": "DUPONG", "id": "1281"},
 {"group" : "LF", "name": "DOWER", "id": "1284"},
-{"group" : "KOMPAK", "name": "SUHENDI", "id": "1286"}
+{"group" : "KOMPAK", "name": "SUHENDI", "id": "1286"},
+{"group" : "FREELANCE", "name": "ANDRI", "id": "1287"},
+{"group" : "NNC", "name": "YADI", "id": "1289"},
+{"group" : "SULTAN GROUP", "name": "ASEP", "id": "1291"},
+{"group" : "ALMAWADA", "name": "USMAN", "id": "1290"},
+{"group" : "ARAHIM", "name": "IWAN", "id": "1293"},
+{"group" : "OASIS", "name": "SOBIRIN", "id": "1292"}
 ]
 
