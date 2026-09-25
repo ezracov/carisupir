@@ -1184,7 +1184,7 @@
 {"group" : "IPPA", "name": "YAYAN", "id": "1186"},
 {"group" : "STT", "name": "FARHADI", "id": "1187"},
 {"group" : "FREELANCE", "name": "MAMAT KB", "id": "1188"},
-{"group" : "SUBANG", "name": "AZIS", "id": "1189"},
+{"group" : "FREELANCE", "name": "AZIS SUBANG", "id": "1189"},
 {"group" : "FARHANA", "name": "ZAKI", "id": "1190"},
 {"group" : "BATAVIA", "name": "AGUNG", "id": "1191"},
 {"group" : "KB", "name": "ERI", "id": "1192"},
@@ -1288,6 +1288,14 @@
 {"group" : "SULTAN GROUP", "name": "ASEP", "id": "1291"},
 {"group" : "ALMAWADA", "name": "USMAN", "id": "1290"},
 {"group" : "ARAHIM", "name": "IWAN", "id": "1293"},
-{"group" : "OASIS", "name": "SOBIRIN", "id": "1292"}
+{"group" : "OASIS", "name": "SOBIRIN", "id": "1292"},
+{"group" : "FMID", "name": "ABDUL SALAM", "id": "1294"},
+{"group" : "KGWM", "name": "CEPI", "id": "1297"},
+{"group" : "FARHANA", "name": "ABU ADIL", "id": "1296"},
+{"group" : "EXIST", "name": "MALIK", "id": "1298"},
+{"group" : "LABAEK INDO", "name": "ATEP", "id": "1299"},
+{"group" : "FREELANCE", "name": "FAIZ OJEG", "id": "1301"},
+{"group" : "FREELANCE", "name": "A DANI", "id": "1300"},
+{"group" : "FREELANCE", "name": "ICA", "id": "1295"}
 ]
 
