@@ -413,7 +413,7 @@
 {"group" : "CRC 2", "name": "DACIM", "id": "412"},
 {"group" : "CRC 1", "name": "ZAKI", "id": "413"},
 {"group" : "IPPA", "name": "HARYANTO", "id": "414"},
-{"group" : "BMG", "name": "MAULANA YUSUF", "id": "415"},
+{"group" : "BGC", "name": "MAULANA YUSUF", "id": "415"},
 {"group" : "AMANAH HOLIDAY", "name": "HERI", "id": "416"},
 {"group" : "FREELANCE", "name": "HAMZAH", "id": "417"},
 {"group" : "FREELANCE", "name": "EKO G", "id": "418"},
@@ -1098,7 +1098,7 @@
 {"group" : "PANGRANGO HOLIDAY", "name": "ZAKI", "id": "1100"},
 {"group" : "DRAMA WISATA", "name": "FALDI", "id": "1101"},
 {"group" : "JKT", "name": "ABDUL AZIS", "id": "1102"},
-{"group" : "P2C", "name": "UDO", "id": "1103"},
+{"group" : "WRC", "name": "UDO", "id": "1103"},
 {"group" : "FREELANCE", "name": "AJO", "id": "1104"},
 {"group" : "BET ASPUR", "name": "FAUZI MARHABA", "id": "1105"},
 {"group" : "FATNER FAMILY", "name": "AGUS SUBARJA", "id": "1106"},
@@ -1298,6 +1298,9 @@
 {"group" : "FREELANCE", "name": "A DANI", "id": "1300"},
 {"group" : "FREELANCE", "name": "ICA", "id": "1295"},
 {"group" : "JKT", "name": "PA ONIM", "id": "1302"},
-{"group" : "FAMILY GOLF", "name": "YASIR", "id": "1303"}
+{"group" : "FAMILY GOLF", "name": "YASIR", "id": "1303"},
+{"group" : "EXIST", "name": "HENDI", "id": "1304"},
+{"group" : "X ONE", "name": "DEDE DAVIR", "id": "1305"},
+{"group" : "IGP", "name": "IRFAN", "id": "1306"}
 ]
 
