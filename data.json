@@ -250,7 +250,7 @@
 {"group" : "IPPA", "name": "ENTEP", "id": "249"},
 {"group" : "BMG", "name": "YUSUF", "id": "250"},
 {"group" : "BGC", "name": "BAKARA", "id": "251"},
-{"group" : "X ONE", "name": "KINOY", "id": "252"},
+{"group" : "4G", "name": "KINOY", "id": "252"},
 {"group" : "IPPA", "name": "UJ", "id": "253"},
 {"group" : "SAVANA", "name": "COMET", "id": "254"},
 {"group" : "CRC 2", "name": "IWAN", "id": "255"},
@@ -1301,6 +1301,9 @@
 {"group" : "FAMILY GOLF", "name": "YASIR", "id": "1303"},
 {"group" : "EXIST", "name": "HENDI", "id": "1304"},
 {"group" : "X ONE", "name": "DEDE DAVIR", "id": "1305"},
-{"group" : "IGP", "name": "IRFAN", "id": "1306"}
+{"group" : "IGP", "name": "IRFAN", "id": "1306"},
+{"group" : "RANTAU", "name": "INDRA", "id": "1307"},
+{"group" : "IPPA", "name": "RIKI", "id": "1308"},
+{"group" : "PPGC", "name": "P ZUL", "id": "1309"}
 ]
 
