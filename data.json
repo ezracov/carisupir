@@ -105,7 +105,7 @@
 {"group" : "CRC 2", "name": "AGUS", "id": "213"},
 {"group" : "SK", "name": "RIDWAN", "id": "227"},
 {"group" : "ALHASAN", "name": "SAEFUL ROHMAN", "id": "231"},
-{"group" : "PPGC", "name": "RIZKI OPIK", "id": "233"},
+{"group" : "FAMILY PONCORAN", "name": "RIZKI OPIK", "id": "233"},
 {"group" : "PESONA ALAM", "name": "FAHRI", "id": "234"},
 {"group" : "NEWSTAR", "name": "KIKIN", "id": "246"},
 {"group" : "BMG", "name": "YUSUF", "id": "250"},
@@ -1318,6 +1318,13 @@
 {"group" : "H2GU", "name": "ABDULLAJ", "id": "1323"},
 {"group" : "FMID", "name": "WAWAN ABU ZAKI", "id": "1318"},
 {"group" : "FREELANCE", "name": "ALAN", "id": "1320"},
-{"group" : "WISATA", "name": "ARAY", "id": "1321"}
+{"group" : "WISATA", "name": "ARAY", "id": "1321"},
+{"group" : "JAMHUR", "name": "ASEP", "id": "1324"},
+{"group" : "IPPA", "name": "ABU REHAN", "id": "1325"},
+{"group" : "FREELANCE", "name": "DENA", "id": "1326"},
+{"group" : "SEKTOR C", "name": "FATHUR", "id": "1327"},
+{"group" : "AL AKBAR", "name": "FAJRI", "id": "1330"},
+{"group" : "FREELANCE", "name": "ASEP SOPIAN", "id": "1328"},
+{"group" : "FREELANCE", "name": "AMRAN", "id": "1329"}
 ]
 
