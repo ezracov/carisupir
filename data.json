@@ -474,7 +474,7 @@
 {"group" : "HPI", "name": "ABU MUHAMAD", "id": "300"},
 {"group" : "EXIST", "name": "DANI", "id": "304"},
 {"group" : "EXIST", "name": "BOGEL", "id": "308"},
-{"group" : "FREELANCE", "name": "ABIDIN", "id": "310"},
+{"group" : "SINAR ALAM", "name": "ABIDIN", "id": "310"},
 {"group" : "4G", "name": "ARIF", "id": "319"},
 {"group" : "BDHAZ", "name": "DOYOK", "id": "323"},
 {"group" : "TR", "name": "DEDE SUTISNA", "id": "324"},
@@ -1341,6 +1341,7 @@
 {"group" : "SHB", "name": "BERNAT", "id": "1336"},
 {"group" : "SB35", "name": "DADANG", "id": "1340"},
 {"group" : "FREELANCE", "name": "H MULYADI", "id": "1345"},
-{"group" : "NEW FAMILY", "name": "EDI", "id": "1346"}
+{"group" : "NEW FAMILY", "name": "EDI", "id": "1346"},
+{"group" : "SEKTOR C", "name": "SADAM", "id": "1347"}
 ]
 
