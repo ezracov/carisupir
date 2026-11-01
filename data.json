@@ -1346,6 +1346,10 @@
 {"group" : "JDC", "name": "BARON", "id": "1348"},
 {"group" : "FREELANCE", "name": "AANG", "id": "1349"},
 {"group" : "FAMILY GOLF", "name": "USMAN", "id": "1350"},
-{"group" : "PPGC", "name": "MUMUH", "id": "1351"}
+{"group" : "PPGC", "name": "MUMUH", "id": "1351"},
+{"group" : "SEKTOR C", "name": "AGUS SETIAWAN", "id": "1352"},
+{"group" : "FREELANCE", "name": "DAFFA", "id": "1353"},
+{"group" : "NNC", "name": "CECENG", "id": "1354"},
+{"group" : "BGC", "name": "AEF", "id": "1355"}
 ]
 
