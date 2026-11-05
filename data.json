@@ -1350,6 +1350,13 @@
 {"group" : "SB35", "name": "BOKIR", "id": "1337"},
 {"group" : "JDC", "name": "BARON", "id": "1348"},
 {"group" : "FREELANCE", "name": "DAFFA", "id": "1353"},
-{"group" : "NNC", "name": "CECENG", "id": "1354"}
+{"group" : "NNC", "name": "CECENG", "id": "1354"},
+{"group" : "LF", "name": "SALEH", "id": "1356"},
+{"group" : "TR", "name": "BUDIMAN", "id": "1357"},
+{"group" : "BLOK M", "name": "MUSALEH", "id": "1358"},
+{"group" : "MS", "name": "AGUS", "id": "1359"},
+{"group" : "LF", "name": "DESI", "id": "1360"},
+{"group" : "SAVANA", "name": "P JAJA", "id": "1362"},
+{"group" : "BATAVIA", "name": "TAUFIK", "id": "1361"}
 ]
 
