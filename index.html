@@ -7,6 +7,8 @@
     <style>
         :root {
             --primary: #4F46E5;
+            --success: #25D366;
+            --success-hover: #128C7E;
             --bg-color: #F3F4F6;
             --card-bg: #FFFFFF;
             --text-main: #1F2937;
@@ -38,17 +40,17 @@
             padding: 10px 0 20px 0;
             z-index: 10;
         }
-        input[type="text"] {
+        input[type="text"], input[type="number"] {
             width: 100%;
-            padding: 14px 16px;
-            font-size: 16px;
+            padding: 12px 16px;
+            font-size: 15px;
             border: 2px solid #D1D5DB;
             border-radius: 8px;
             box-sizing: border-box;
             outline: none;
             transition: border-color 0.2s ease;
         }
-        input[type="text"]:focus {
+        input[type="text"]:focus, input[type="number"]:focus {
             border-color: var(--primary);
         }
         .result-list {
@@ -59,30 +61,28 @@
         .result-item {
             background: var(--card-bg);
             padding: 16px;
-            margin-bottom: 12px;
+            margin-bottom: 14px;
             border-radius: 8px;
             box-shadow: 0 2px 4px rgba(0,0,0,0.05);
             display: flex;
+            flex-direction: column;
+            gap: 12px;
+            border-left: 4px solid var(--primary);
+        }
+        .card-header {
+            display: flex;
             justify-content: space-between;
             align-items: center;
-            border-left: 4px solid var(--primary);
-            cursor: pointer; /* Perubahan 1: Mengubah cursor menjadi pointer saat hover */
-            transition: transform 0.1s ease, box-shadow 0.1s ease;
-        }
-        /* Tambahan efek hover agar lebih interaktif */
-        .result-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
         .info {
             display: flex;
             flex-direction: column;
         }
         .group-name {
-            font-size: 12px;
+            font-size: 11px;
             font-weight: 600;
             color: var(--text-muted);
-            margin-bottom: 4px;
+            margin-bottom: 2px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
         }
@@ -91,9 +91,36 @@
             font-weight: 700;
         }
         .person-id {
-            font-size: 18px;
+            font-size: 16px;
             font-weight: bold;
             color: var(--primary);
+        }
+        /* Area Input Nominal & Tombol WA */
+        .action-box {
+            display: flex;
+            gap: 8px;
+            margin-top: 4px;
+            align-items: center;
+        }
+        .action-box input {
+            flex: 1;
+            padding: 10px 12px;
+            font-size: 14px;
+        }
+        .btn-wa {
+            background-color: var(--success);
+            color: white;
+            border: none;
+            padding: 10px 14px;
+            font-size: 14px;
+            font-weight: 600;
+            border-radius: 8px;
+            cursor: pointer;
+            white-space: nowrap;
+            transition: background-color 0.2s ease;
+        }
+        .btn-wa:hover {
+            background-color: var(--success-hover);
         }
         .no-data {
             text-align: center;
@@ -141,26 +168,53 @@
                 return;
             }
 
-            data.forEach(item => {
+            data.forEach((item, index) => {
                 const li = document.createElement('li');
                 li.className = 'result-item';
                 
                 li.innerHTML = `
-                    <div class="info">
-                        <span class="group-name">[${item.group}]</span>
-                        <span class="person-name">${item.name}</span>
+                    <div class="card-header">
+                        <div class="info">
+                            <span class="group-name">[${item.group}]</span>
+                            <span class="person-name">${item.name}</span>
+                        </div>
+                        <div class="person-id">${item.id}</div>
                     </div>
-                    <div class="person-id">${item.id}</div>
+                    <div class="action-box">
+                        <input type="number" id="nominal-${index}" placeholder="Masukkan nominal...">
+                        <button class="btn-wa" onclick="kirimWA('${item.id}', '${item.name}', '${item.group}', ${index})">Ambil Tabungan</button>
+                    </div>
                 `;
-                
-                // Perubahan 2 & 3: Menambahkan event click untuk membuka tautan berdasarkan item.id (token)
-                li.addEventListener('click', function() {
-                    const targetUrl = `https://member-zahra.netlify.app/?token=${item.id}`;
-                    window.open(targetUrl, '_blank'); // '_blank' digunakan untuk membuka di tab baru
-                });
                 
                 listContainer.appendChild(li);
             });
+        }
+
+        // Fungsi untuk mengirim pesan ke WhatsApp
+        function kirimWA(kode, nama, pangkalan, index) {
+            const inputNominal = document.getElementById(`nominal-${index}`);
+            const nominalVal = inputNominal.value.trim();
+
+            if (!nominalVal) {
+                alert("Silakan masukkan nominal pengambilan terlebih dahulu!");
+                inputNominal.focus();
+                return;
+            }
+
+            // Ubah format angka menjadi format Rupiah sederhana (opsional, misal: 500000 jadi Rp500.000)
+            const formattedNominal = "Rp" + Number(nominalVal).toLocaleString('id-ID');
+
+            // Ganti nomor di bawah ini dengan nomor HP tujuan atau link Grup WhatsApp kamu
+            const noTujuan = "6282211958972"; 
+
+            // Susun format teks dengan baris baru (\n)
+            const pesan = `Kode : ${kode}\nNama : ${nama}\nPangkalan : ${pangkalan}\nAmbil Tabungan : ${formattedNominal}`;
+
+            // Generate URL WhatsApp
+            const urlWA = `https://api.whatsapp.com/send?phone=${noTujuan}&text=${encodeURIComponent(pesan)}`;
+
+            // Buka di tab baru
+            window.open(urlWA, '_blank');
         }
 
         // Event listener untuk input pencarian (real-time filtering)
