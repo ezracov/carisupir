@@ -820,7 +820,7 @@
 {"group" : "SDS", "name": "AIMAN", "id": "565"},
 {"group" : "OASIS", "name": "JUDIN", "id": "568"},
 {"group" : "ADC", "name": "RIDWAN IDIS", "id": "569"},
-{"group" : "SAVANA", "name": "ENTIS", "id": "573"},
+{"group" : "NEWSTAR", "name": "ENTIS", "id": "573"},
 {"group" : "DESTROY", "name": "INDRA", "id": "577"},
 {"group" : "DESTROY", "name": "OYAN", "id": "578"},
 {"group" : "GN JATI", "name": "NURIL", "id": "580"},
@@ -1357,6 +1357,8 @@
 {"group" : "MS", "name": "AGUS", "id": "1359"},
 {"group" : "LF", "name": "DESI", "id": "1360"},
 {"group" : "SAVANA", "name": "P JAJA", "id": "1362"},
-{"group" : "BATAVIA", "name": "TAUFIK", "id": "1361"}
+{"group" : "BATAVIA", "name": "TAUFIK", "id": "1361"},
+{"group" : "FREELANCE", "name": "HABIB LUTHFI", "id": "1363"},
+{"group" : "SEKTOR C", "name": "RUDI", "id": "1364"}
 ]
 
