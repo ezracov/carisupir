@@ -485,7 +485,7 @@
 {"group" : "BEDOG LOCOT", "name": "ZIDAN", "id": "182"},
 {"group" : "JDC", "name": "RAJAB", "id": "183"},
 {"group" : "NEWSTAR", "name": "BP OLOT", "id": "187"},
-{"group" : "ANAZMA", "name": "HERMAN", "id": "196"},
+{"group" : "FREELANCE", "name": "HERMAN", "id": "196"},
 {"group" : "SAVANA", "name": "JENAL", "id": "200"},
 {"group" : "PARTNER", "name": "IPANK", "id": "216"},
 {"group" : "ANAZMA", "name": "DASEP", "id": "217"},
@@ -1124,7 +1124,7 @@
 {"group" : "FREELANCE", "name": "JONO", "id": "1260"},
 {"group" : "ALJAZEERA", "name": "YOGA", "id": "1264"},
 {"group" : "FREELANCE", "name": "P JENAL", "id": "1266"},
-{"group" : "KB", "name": "P JAJANG", "id": "1263"},
+{"group" : "PPGC", "name": "P JAJANG", "id": "1263"},
 {"group" : "RANTAU", "name": "SULE", "id": "1267"},
 {"group" : "EXIST", "name": "DANI NUR", "id": "1268"},
 {"group" : "OASIS", "name": "HILMAN", "id": "1271"},
@@ -1359,6 +1359,15 @@
 {"group" : "SAVANA", "name": "P JAJA", "id": "1362"},
 {"group" : "BATAVIA", "name": "TAUFIK", "id": "1361"},
 {"group" : "FREELANCE", "name": "HABIB LUTHFI", "id": "1363"},
-{"group" : "SEKTOR C", "name": "RUDI", "id": "1364"}
+{"group" : "SEKTOR C", "name": "RUDI", "id": "1364"},
+{"group" : "MANDIRI SAFAR", "name": "AHMAD MARUF", "id": "1367"},
+{"group" : "X ONE", "name": "AANG", "id": "1365"},
+{"group" : "BATAVIA", "name": "DEDE KUSNADI", "id": "1366"},
+{"group" : "FREELANCE", "name": "AZAM", "id": "1368"},
+{"group" : "JKT", "name": "ANDI", "id": "1369"},
+{"group" : "DESTROY", "name": "DASEP", "id": "1371"},
+{"group" : "STT", "name": "WAHID", "id": "1370"},
+{"group" : "SAMPAY", "name": "AYI", "id": "1372"},
+{"group" : "ALAKEFEK", "name": "GIYANTO", "id": "1373"}
 ]
 
