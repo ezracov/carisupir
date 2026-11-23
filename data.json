@@ -82,7 +82,7 @@
 {"group" : "TR", "name": "SAEFUL HENDRI", "id": "081"},
 {"group" : "BLOK M", "name": "H RIKI", "id": "082"},
 {"group" : "FMID", "name": "ROHIM", "id": "083"},
-{"group" : "H2GU", "name": "CINER", "id": "084"},
+{"group" : "H2GU", "name": "SULAEMAN CINER", "id": "084"},
 {"group" : "FAMILY", "name": "YANA", "id": "085"},
 {"group" : "BMG", "name": "ABU SULTON", "id": "086"},
 {"group" : "ALAKEFEK", "name": "H YUSUF", "id": "087"},
@@ -1380,6 +1380,8 @@
 {"group" : "OASIS", "name": "AKMAL", "id": "1383"},
 {"group" : "WHIFER", "name": "P ENDANG", "id": "1382"},
 {"group" : "FREELANCE", "name": "P SOPIAN", "id": "1384"},
-{"group" : "FREELANCE", "name": "M AJI", "id": "1385"}
+{"group" : "FREELANCE", "name": "M AJI", "id": "1385"},
+{"group" : "TRIPLE S", "name": "ALWI", "id": "1387"},
+{"group" : "ARAHIM", "name": "P RAHMAT", "id": "1386"}
 ]
 
