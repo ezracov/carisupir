@@ -394,7 +394,7 @@
 {"group" : "JRC", "name": "H DODI", "id": "393"},
 {"group" : "WDS", "name": "AZI", "id": "394"},
 {"group" : "CRC 2", "name": "FIKRI", "id": "395"},
-{"group" : "FREELANCE", "name": "ASEP RIDWAN", "id": "396"},
+{"group" : "KB", "name": "ASEP RIDWAN", "id": "396"},
 {"group" : "SGA", "name": "H HOLIL", "id": "397"},
 {"group" : "SGA", "name": "SALEH", "id": "398"},
 {"group" : "H2GU", "name": "USMAN", "id": "399"},
@@ -561,7 +561,7 @@
 {"group" : "EXIST", "name": "ROFAL", "id": "560"},
 {"group" : "SAWAG ADAM", "name": "P CECEP", "id": "561"},
 {"group" : "SB35", "name": "HIDAYAT", "id": "562"},
-{"group" : "NGOPAS", "name": "FATAH ex ASR", "id": "563"},
+{"group" : "FAMILY HABIBI", "name": "FATAH", "id": "563"},
 {"group" : "NEWSTAR", "name": "FERI", "id": "564"},
 {"group" : "SDS", "name": "AIMAN", "id": "565"},
 {"group" : "WDS", "name": "AYAH BADAR", "id": "566"},
@@ -1382,6 +1382,9 @@
 {"group" : "FREELANCE", "name": "P SOPIAN", "id": "1384"},
 {"group" : "FREELANCE", "name": "M AJI", "id": "1385"},
 {"group" : "TRIPLE S", "name": "ALWI", "id": "1387"},
-{"group" : "ARAHIM", "name": "P RAHMAT", "id": "1386"}
+{"group" : "ARAHIM", "name": "P RAHMAT", "id": "1386"},
+{"group" : "PPGC", "name": "UJANG JAJAT", "id": "1388"},
+{"group" : "KPCP REBORN", "name": "UMAR", "id": "1390"},
+{"group" : "BEDOG LOCOT", "name": "SADUL", "id": "1389"}
 ]
 
